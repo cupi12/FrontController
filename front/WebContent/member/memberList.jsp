@@ -30,6 +30,7 @@
 			<td>ID</td>
 			<td>Name</td>
 			<td>Gender</td>
+			<td>Hobby</td>
 			<td colspan="2">Member Edit</td>
 		</tr>
 		<%
@@ -46,6 +47,7 @@
 			<td><%=vo.getId()%></td>
 			<td><%=vo.getName()%></td>
 			<td><%=vo.getGender()%></td>
+			<td><%=vo.getHobby() %></td>
 			<td><a href="MemberUpdateForm.do?id=<%=vo.getId()%>">수정</a></td>
 			<td><a href="MemberDelete.do?id=<%=vo.getId()%>">삭제</a></td>
 		</tr>
